@@ -1,3 +1,4 @@
+import Weather from "@/components/weather";
 
 export default function Home() {
   return (
@@ -8,6 +9,10 @@ export default function Home() {
           <p className="text-md text-center">
             Find weather for cities around the world
           </p>
+        </div>
+
+        <div>
+          <Weather />
         </div>
       </div>
     </div>
