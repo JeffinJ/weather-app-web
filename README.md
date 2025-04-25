@@ -19,8 +19,6 @@ A modern web application that provides weather information for cities around the
 - [Running the Application](#running-the-application)
 - [Environment Variables](#environment-variables)
 - [API Usage](#api-usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Screenshots
 
@@ -98,42 +96,16 @@ yarn start
 
 Create a `.env.local` file in the root directory and add the following variables:
 
-```
-# OpenWeatherMap API
-NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
-OPENWEATHER_API_URL=https://api.openweathermap.org/data/2.5
-
-# Application Settings
+```bash
+# SpringBoot app
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8080/api
 ```
-
-### Getting an API Key
-
-1. Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/)
-2. Navigate to the API keys section
-3. Generate a new API key
-4. Add the key to your `.env.local` file
 
 ## API Usage
 
 The application uses the following API endpoints:
 
 - `/api/cities/by-letter/:letter` - Get cities starting with a specific letter
-- `/api/weather/:cityId` - Get detailed weather information for a specific city
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
