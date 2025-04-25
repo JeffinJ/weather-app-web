@@ -2,7 +2,7 @@
 
 A modern web application that provides weather information for cities around the world.
 
-![Weather Lookup App Screenshot](image.png)
+![Weather Lookup App Screenshot](image-3.png)
 
 ## Features
 
