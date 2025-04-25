@@ -109,4 +109,4 @@ The application uses the following API endpoints:
 
 ---
 
-Created by [Jeffin Jose](https://jeffinjose.dev) with ❤️
+Created by [Jeffin Jose](https://jeffinjose.dev)
