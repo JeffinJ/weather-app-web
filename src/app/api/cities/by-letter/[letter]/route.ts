@@ -10,14 +10,8 @@ export async function GET(
     { params }: { params: Promise<{ letter: string }> }
 ) {
 
-
     const { letter } = await params;
-    console.log('letter:', letter);
 
-    
-    
-
-    // Validate letter input
     if (!letter || letter.length !== 1 || !letter.match(/^[a-zA-Z]$/)) {
         return NextResponse.json(
             { error: 'Invalid input. Please provide a single letter.' },

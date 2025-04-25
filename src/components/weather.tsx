@@ -1,11 +1,14 @@
 "use client";
 
+import { Suspense } from "react";
 import CitySearch from "./ui/search-form";
 
 export default function Weather() {
   return (
     <div>
-      <CitySearch />
+      <Suspense>
+        <CitySearch />
+      </Suspense>
     </div>
   );
 }
