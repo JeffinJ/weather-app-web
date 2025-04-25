@@ -1,14 +1,11 @@
 "use client";
 
-import SearchForm from "./ui/search";
+import CitySearch from "./ui/search-form";
 
 export default function Weather() {
   return (
-        <div>
-          <SearchForm
-            searchParam=""
-            onChange={() => { }}
-            onKeyDown={() => { }} />
-        </div>
+    <div>
+      <CitySearch />
+    </div>
   );
 }
