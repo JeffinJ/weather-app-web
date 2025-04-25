@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Weather App",
+  title: "Weather Lookup",
   description: "Find weather for cities around the world",
 };
 
